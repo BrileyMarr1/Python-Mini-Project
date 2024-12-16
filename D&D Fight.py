@@ -7,9 +7,9 @@ playerRollD6 = 0
 playerRollD20 = 0
 
 def rollD20(): 
-    roll = random.randint(1, 20)
+    D20Roll = random.randint(1, 20)
 
-    return roll
+    return D20Roll
 
 def rollD4():
     D4Roll = random.randint(1, 4)
